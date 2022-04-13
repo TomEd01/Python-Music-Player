@@ -105,7 +105,7 @@ stop = tk.Button(ventana, text='Detener', image=stop_img, bg='green', borderwidt
 stop.pack(pady=15, in_=buttom_all, side='left')
 play = tk.Button(ventana, text='Continuar', image=play_img, bg='green', borderwidth=0, command=reproducir)
 play.pack(pady=15, in_=buttom_all, side='left')
-pause = tk.Button(ventana,text='Pausa', image= pause_img, bg='green', borderwidth=0)
+pause = tk.Button(ventana,text='Pausa', image= pause_img, bg='green', borderwidth=0, command=pausa)
 pause.pack(pady=15, in_=buttom_all, side='left')
 nextB = tk.Button(ventana, text='Siguiente', image=next_img, bg='green', borderwidth=0, command=siguiente)
 nextB.pack(pady=15, in_=buttom_all, side='left')
