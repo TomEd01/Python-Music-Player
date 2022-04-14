@@ -123,11 +123,11 @@ menu.add_cascade(label='Carpeta', menu=Carpeta)
 #Un poco de estilo
 scrollbar = ttk.Scrollbar(caja1, orient=tk.VERTICAL)
 lista = tk.Listbox(caja1, fg="black", bg='#F7F5F2',width=51, height=22, font=('Roboto',11),borderwidth=0,yscrollcommand=scrollbar.set)
-lista.grid(row=0,column=4,rowspan=2,columnspan=2)
+lista.grid(row=0,column=1)
 img = Image.open('rc.jpg')
 img= ImageTk.PhotoImage(img)
 label_img = tk.Label(caja1, image=img,height=400, width=400)
-label_img.grid(row=0,column=0,columnspan=4,rowspan=2)
+label_img.grid(row=0,column=0)
 
 #Estilos que hacen la diferencia y/o volumen proximamente xd
 espacio = tk.Label(caja2, text='',bg='#F7F5F2',fg='black', font=('Roboto',14),width=52)
