@@ -1,6 +1,4 @@
-# Python-Music-Player
-Se que no es un gran proyecto, pero me diverti haciendolo, y me gustaria seguir mejorandolo o hacerle un cambio general, por que siento que tiene potencial mi reproductor. 🤑
-
+## Introducción
 Este reproductor fue basado en la biblioteca [tkinter](https://docs.python.org/es/3/library/tkinter.html) para implementar una interfaz visual tipo game-boy y llamar a bibliotecas de terceros como [pygame](https://www.pygame.org/docs/) para implementar funciones básicas como reproducir canciones, cambiar canciones e importar bibliotecas de múseica por lotes. 
 
 El programa está configurado en ciclo único Modo, debe cambiar manualmente las canciones, también puede volver a definir la lista de reproducción e importar audio mp3 local.
@@ -17,7 +15,7 @@ Ya que queria ver/conocer los conceptos basicos de el modulo de **pygames** y la
 
 Y con esto en la cabeza lo pude hacer, aun que luego me di cuenta que ya estaba el codigo hecho 😅, pero aun asi fue genial la lluvia de ideas ☔🧠
 
-##Librerias
+## Librerias
 | **Nombre**  | **Descripcción**  |
 | ------------ | ------------ |
 | `pygame`   | Permite la creación de videojuegos en dos dimensiones de una manera sencilla al igual provee varios modulos |
@@ -26,12 +24,18 @@ Y con esto en la cabeza lo pude hacer, aun que luego me di cuenta que ya estaba 
 | `tkinter()`  | Es el único [kit](https://docs.python.org/es/3/library/tkinter.html) de herramientas de interfaz gráfica de usuario multiplataforma (Windows, Mac, Unix) diseñado exclusivamente para lenguajes dinámicos de alto nivel  |
 | `fnmatch()`  | Nos ayuda a identificar las extenciones en consola tipo Unix [Mas Info](https://docs.python.org/es/3.8/library/fnmatch.html#module-fnmatch) |
 | `mutagen()`  | [Mutagen](https://mutagen.readthedocs.io/en/latest/) es un módulo de Python para manejar metadatos de audio.  |
+| `PIL()`  | [Pillow](http://pillow.readthedocs.org/en/latest/) es una librería gratuita que permite la edición de imágenes directamente desde Python.  |
 
 ## ¿Cual fue mi proceso?
 - Primero que nada queria comensar con algo super sencillo, con conceptos basicos
 
 - Despues de invesstigar decidi que las anteriores librerias serian las indicadas
 
-- Despues, me vi un [video](https://www.youtube.com/watch?v=YXPyB4XeYLA) para aprender a manejar la ventana de tkinder y si que me gusto
+- Despues, me vi un [video](https://www.youtube.com/watch?v=YXPyB4XeYLA) para aprender a manejar la ventana de tkinder y si que me gusto 🤫
 
-- Luego me parecio bastante curioso hacer el diseño tipo game-boy 🎮
+- Luego me parecio bastante curioso hacer un diseño algo moderno 🥴
+![](![](https://pandao.github.io/editor.md/examples/images/4.jpg))
+
+- Ya con el boceto hecho, fue sencillo codificarlo 🥱
+
+- De todas manera habra un cambio mas, quiero agregarle la barra de tiempo de reproducción espero lograrlo 🤗
