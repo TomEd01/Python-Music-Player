@@ -34,7 +34,8 @@ Y con esto en la cabeza lo pude hacer, aun que luego me di cuenta que ya estaba 
 - Despues, me vi un [video](https://www.youtube.com/watch?v=YXPyB4XeYLA) para aprender a manejar la ventana de tkinder y si que me gusto 🤫
 
 - Luego me parecio bastante curioso hacer un diseño algo moderno 🥴
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+
+![](https://github.com/TomEd01/Python-Music-Player/blob/main/icons/app.png)
 
 - Ya con el boceto hecho, fue sencillo codificarlo 🥱
 
